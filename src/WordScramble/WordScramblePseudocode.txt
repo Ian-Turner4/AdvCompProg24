@@ -1,0 +1,36 @@
+START
+
+WHILE true
+	Read word list
+	Set word1 as random word from list
+	Set word2 as random word from list
+	Set word3 as random word from list
+	Compute randWord as randomization of letters in word variables
+	Set attempts to 3
+
+	WHILE true
+		Display scrambled word and directive
+		Set guess as command line input by player
+		IF guess = word1, word2, or word3 THEN
+			FOR letters in guess
+				find letter in randWord, replace letter as empty space
+			ENDLOOP
+			Display correct message
+			IF randWord contains only empty space THEN
+				Display victory message
+				break loop
+		ELSE
+			decrement attempts
+			display incorrect message and remaining attempts
+			IF attempts = 0 THEN
+				Display failure message
+				break loop
+	ENDWHILE
+	
+	display play again message
+	IF player input = false THEN
+		break loop
+
+ENDWHILE
+
+END

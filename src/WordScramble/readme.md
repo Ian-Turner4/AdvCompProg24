@@ -9,4 +9,4 @@ A word game in which the player must discern three words that have been scramble
 
 ## Pseudocode:
 
-![Screenshot of the pseudocode used in development.](https://github.com/Ian-Turner4/AdvCompProg24/blob/main/images/WordScramblePseudo.png?raw=true)
+![Screenshot of the class diagram used in development.](https://github.com/Ian-Turner4/AdvCompProg24/blob/main/images/WordScrambleDiagram.png?raw=true)
